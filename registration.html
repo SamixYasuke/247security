@@ -15,6 +15,7 @@
       href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
+    <script src="./registration.js" defer></script>
     <title>Registration</title>
   </head>
   <body class="registration-form-container">
@@ -27,7 +28,13 @@
         <p class="registration-form-input-header">
           Email Address <span>*</span>
         </p>
-        <input type="email" name="email" id="email" placeholder="Email *" />
+        <input
+          type="email"
+          id="email"
+          name="email"
+          id="email"
+          placeholder="Email *"
+        />
         <p>We'll never share your email with anyone else.</p>
       </div>
       <div class="registration-form-password-container">
@@ -52,10 +59,19 @@
         <p class="registration-form-input-header">Work Photo <span>*</span></p>
         <div>
           <label for="work-photo">
-            <p>Upload a picture of you in a suit</p>
+            <p id="work-photo-file-name">Upload a picture of you in a suit</p>
             <img src="./assets/images/file-add.png" alt="file-add.png" />
           </label>
-          <input type="file" name="work-photo" id="work-photo" />
+          <input
+            type="file"
+            name="work-photo"
+            id="work-photo"
+            accept=".txt, .pdf, .doc, .docx, .xls, .xlsx, .ppt, .pptx, .jpg, .jpeg, .png, .gif, .bmp, .tif, .tiff, .svg, .psd, .ai, .eps, .zip, .rar, .7z, .tar, .gz, .bz2, .html, .htm, .css, .js, .csv"
+            onchange="handleWorkPhotoUpload(event)"
+          />
+          <div id="work-photo-error-message" style="color: red; display: none">
+            File size exceeds 50MB. Please select a smaller file.
+          </div>
         </div>
       </div>
       <div class="registration-form-license-container">
@@ -64,14 +80,25 @@
         </p>
         <div>
           <label for="license">
-            <p>Upload all relevant licenses</p>
+            <p id="license-file-name">Upload all relevant licenses</p>
             <img src="./assets/images/file-add.png" alt="file-add.png" />
           </label>
-          <input type="file" name="license" id="license" />
+          <input
+            type="file"
+            name="license"
+            id="license"
+            accept=".txt, .pdf, .doc, .docx, .xls, .xlsx, .ppt, .pptx, .jpg, .jpeg, .png, .gif, .bmp, .tif, .tiff, .svg, .psd, .ai, .eps, .zip, .rar, .7z, .tar, .gz, .bz2, .html, .htm, .css, .js, .csv"
+            onchange="handleLicenseUpload(event)"
+          />
+          <div id="license-error-message" style="color: red; display: none">
+            File size exceeds 50MB. Please select a smaller file.
+          </div>
         </div>
       </div>
       <div class="registration-form-submit-button-container">
-        <button type="submit">Submit</button>
+        <button type="submit" onclick="submitForm(event.preventDefault())">
+          Submit
+        </button>
       </div>
     </form>
   </body>
