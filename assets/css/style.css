@@ -1,0 +1,354 @@
+/* .registration-form-container {
+  margin: 0 auto;
+}
+
+.registration-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding: 20px 50px;
+}
+
+.registration-header > img:nth-child(2) {
+  cursor: pointer;
+}
+
+.registration-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 341px;
+  margin: 0 auto;
+}
+
+.registration-form-input-header {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+  font-weight: 400;
+}
+
+.registration-form-input-header > span {
+  color: rgba(255, 11, 11, 1);
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+  font-weight: 400;
+}
+
+.registration-form-email-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+}
+
+.registration-form-email-container > input {
+  width: auto;
+  height: 64px;
+  box-sizing: border-box;
+  padding: 0 30px;
+  border-radius: 7px;
+  border: 1px solid rgba(0, 0, 0, 0.24);
+  font-family: "Montserrat", sans-serif;
+  background-color: rgba(249, 249, 249, 1);
+}
+
+.registration-form-email-container > p:nth-child(3) {
+  color: rgba(115, 115, 115, 1);
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 28px;
+  letter-spacing: 0.2px;
+}
+
+.registration-form-password-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+}
+
+.registration-form-password-container > input {
+  width: auto;
+  height: 64px;
+  box-sizing: border-box;
+  padding: 0 30px;
+  border-radius: 7px;
+  border: 1px solid rgba(0, 0, 0, 0.24);
+  font-family: "Montserrat", sans-serif;
+  background-color: rgba(249, 249, 249, 1);
+}
+
+.registration-form-confirm-password-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+}
+
+.registration-form-confirm-password-container > input {
+  width: auto;
+  height: 64px;
+  box-sizing: border-box;
+  padding: 0 30px;
+  border-radius: 7px;
+  border: 1px solid rgba(0, 0, 0, 0.24);
+  font-family: "Montserrat", sans-serif;
+  background-color: rgba(249, 249, 249, 1);
+}
+
+.registration-form-work-photo-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+}
+
+.registration-form-work-photo-container > div {
+  background-color: rgba(249, 249, 249, 1);
+  box-sizing: border-box;
+  border-radius: 7px;
+  border: 1px solid rgba(0, 0, 0, 0.24);
+}
+
+.registration-form-work-photo-container > div > label > p {
+  color: rgba(115, 115, 115, 1);
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  line-height: 28px;
+  letter-spacing: 0.2px;
+}
+
+.registration-form-work-photo-container > div > label {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 30px;
+  height: 64px;
+  cursor: pointer;
+}
+
+.registration-form-work-photo-container > div > input {
+  display: none;
+}
+
+.registration-form-license-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+}
+
+.registration-form-license-container > div {
+  background-color: rgba(249, 249, 249, 1);
+  box-sizing: border-box;
+  border-radius: 7px;
+  border: 1px solid rgba(0, 0, 0, 0.24);
+}
+
+.registration-form-license-container > div > label > p {
+  color: rgba(115, 115, 115, 1);
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  line-height: 28px;
+  letter-spacing: 0.2px;
+}
+
+.registration-form-license-container > div > label {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 30px;
+  height: 64px;
+  cursor: pointer;
+}
+
+.registration-form-license-container > div > input {
+  display: none;
+}
+
+.registration-form-submit-button-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 50px 0;
+}
+
+.registration-form-submit-button-container > button {
+  height: 50px;
+  width: 100px;
+  background-color: rgba(255, 255, 0, 1);
+  border-radius: 9px;
+  border-style: none;
+  font-family: "DM Sans", sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  cursor: pointer;
+  transition: 0.2s ease-in-out background-color;
+}
+
+.registration-form-submit-button-container > button:hover {
+  background-color: rgb(245, 245, 29);
+} */
+
+.registration-form-container {
+  margin: 0 auto;
+}
+
+.registration-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding: 20px 50px;
+}
+
+.registration-header > img:nth-child(2) {
+  cursor: pointer;
+}
+
+.registration-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 341px;
+  margin: 0 auto;
+}
+
+.registration-form-input-header > span {
+  color: rgba(255, 11, 11, 1);
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+  font-weight: 400;
+}
+
+.registration-form-input-header,
+.registration-form-input-header > span {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+  font-weight: 400;
+}
+
+.registration-form-email-container,
+.registration-form-password-container,
+.registration-form-confirm-password-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+}
+
+.registration-form-email-container > input,
+.registration-form-password-container > input,
+.registration-form-confirm-password-container > input {
+  width: auto;
+  height: 64px;
+  box-sizing: border-box;
+  padding: 0 30px;
+  border-radius: 7px;
+  border: 1px solid rgba(0, 0, 0, 0.24);
+  font-family: "Montserrat", sans-serif;
+  background-color: rgba(249, 249, 249, 1);
+}
+
+.registration-form-email-container > p:nth-child(3),
+.registration-form-password-container + p,
+.registration-form-confirm-password-container + p {
+  color: rgba(115, 115, 115, 1);
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 28px;
+  letter-spacing: 0.2px;
+}
+
+.registration-form-work-photo-container,
+.registration-form-license-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+}
+
+.registration-form-work-photo-container > div,
+.registration-form-license-container > div {
+  background-color: rgba(249, 249, 249, 1);
+  box-sizing: border-box;
+  border-radius: 7px;
+  border: 1px solid rgba(0, 0, 0, 0.24);
+}
+
+.registration-form-work-photo-container > div > label > p,
+.registration-form-license-container > div > label > p {
+  color: rgba(115, 115, 115, 1);
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  line-height: 28px;
+  letter-spacing: 0.2px;
+}
+
+.registration-form-work-photo-container > div > label,
+.registration-form-license-container > div > label {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 30px;
+  height: 64px;
+  cursor: pointer;
+}
+
+.registration-form-license-container > div > input,
+.registration-form-work-photo-container > div > input {
+  display: none;
+}
+
+.registration-form-submit-button-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 50px 0;
+}
+
+.registration-form-submit-button-container > button {
+  height: 50px;
+  width: 100px;
+  background-color: rgba(255, 255, 0, 1);
+  border-radius: 9px;
+  border-style: none;
+  font-family: "DM Sans", sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  cursor: pointer;
+  transition: 0.2s ease-in-out background-color;
+}
+
+.registration-form-submit-button-container > button:hover {
+  background-color: rgb(245, 245, 29);
+}
+.registration-form-submit-button-container > button:disabled {
+  background-color: rgba(238, 238, 238, 1);
+  cursor: not-allowed;
+}

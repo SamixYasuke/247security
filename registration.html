@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link
+      rel="shortcut icon"
+      href="./assets/images/favicon.ico"
+      type="image/x-icon"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Registration</title>
+  </head>
+  <body class="registration-form-container">
+    <header class="registration-header">
+      <img src="./assets/images/image 2.png" alt="" />
+      <img src="./assets/images/Vector (2).png" alt="" />
+    </header>
+    <form class="registration-form">
+      <div class="registration-form-email-container">
+        <p class="registration-form-input-header">
+          Email Address <span>*</span>
+        </p>
+        <input type="email" name="email" id="email" placeholder="Email *" />
+        <p>We'll never share your email with anyone else.</p>
+      </div>
+      <div class="registration-form-password-container">
+        <p class="registration-form-input-header">Password <span>*</span></p>
+        <input
+          type="password"
+          placeholder="Password *"
+          name="password"
+          id="password"
+        />
+      </div>
+      <div class="registration-form-confirm-password-container">
+        <p class="registration-form-input-header">Password <span>*</span></p>
+        <input
+          type="password"
+          placeholder="Confirm Password *"
+          name="confirm-password"
+          id="confirm-password"
+        />
+      </div>
+      <div class="registration-form-work-photo-container">
+        <p class="registration-form-input-header">Work Photo <span>*</span></p>
+        <div>
+          <label for="work-photo">
+            <p>Upload a picture of you in a suit</p>
+            <img src="./assets/images/file-add.png" alt="file-add.png" />
+          </label>
+          <input type="file" name="work-photo" id="work-photo" />
+        </div>
+      </div>
+      <div class="registration-form-license-container">
+        <p class="registration-form-input-header">
+          Relevant licenses <span>*</span>
+        </p>
+        <div>
+          <label for="license">
+            <p>Upload all relevant licenses</p>
+            <img src="./assets/images/file-add.png" alt="file-add.png" />
+          </label>
+          <input type="file" name="license" id="license" />
+        </div>
+      </div>
+      <div class="registration-form-submit-button-container">
+        <button type="submit">Submit</button>
+      </div>
+    </form>
+  </body>
+</html>
