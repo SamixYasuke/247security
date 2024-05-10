@@ -4,7 +4,7 @@ function submitForm() {
   const email = document.getElementById("email").value;
   const password = document.getElementById("password").value;
   const clientName = document.getElementById("client-name").value;
-  const getCurrentDate = new Date().toLocaleTimeString();
+  const getCurrentDate = new Date().toLocaleString();
   const formData = {
     email: email,
     password: password,
